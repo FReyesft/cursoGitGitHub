@@ -1,5 +1,6 @@
 body {
     background-color: beige;
+    font-size: 20px;
 }
 
 .cabecera {
@@ -14,5 +15,15 @@ body {
 }
 
 #containerCabecera {
+    border: 1px #000 solid;
+}
+
+.contenidoTema {
+    font-size: 17px;
+    margin-top: 15px;
+}
+
+.tema {
+    margin-top: 20px;
     border: 1px #000 solid;
 }
