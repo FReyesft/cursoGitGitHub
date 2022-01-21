@@ -21,9 +21,11 @@ body {
 .contenidoTema {
     font-size: 17px;
     margin-top: 15px;
+    width: 70%;
 }
 
 .tema {
     margin-top: 20px;
     border: 1px #000 solid;
 }
+
