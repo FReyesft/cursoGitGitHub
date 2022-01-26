@@ -5,11 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
-    <title>Curso profesional de Git y GitHub</title>
+    <title>Curso profesional de Git y GitHub/Home</title>
 </head>
 <body>
     <div id="containerCabecera">
-        <header class="cabecera"><h1>Curso profesional de Git y GitHub</h1></header>
+        <header class="cabecera"><h1>Curso profesional de Git y GitHub/FReyeSFT</h1></header>
     </div>
     <div id="containerTemas">
         <div class="tema">Que es Git?
@@ -53,7 +53,17 @@
             # Por último, ahora sí podemos hacer git push para guardar<br>
             # los cambios de nuestro repositorio local en GitHub:<br>
             git push origin master<br>
-
+            </div>
+        </div>
+        <div class="tema">Cómo funcionan las llaves publicas y privadas:
+            <div class="contenidoTema"><img class="imgTemaLlaves" src="imagenllaves.PNG"><br>
+            Configuración de las llaves SSH en local<br>
+            Crear la llave: ssh-keygen -t rsa -b 4096 -C "fernandoreyezpinto@gmail.com"<br>
+            Para que el sistema operativo se de cuenta que la  llave existe: eval $(ssh-agent -s).<br>
+            Agent (Significa que el servidor de SSH esta corriendo) pid (Es el identificador del proceso) "numero" (le dice al sistema operativo que el proceso esta corriendo")<br>
+            Agregar la llave al sistema operativo: me dirijo al home y pongo el siguiente comando; ssh-add ~/.ssh/id_rsa<br>
+            remote set-url origin: Para cambiar la url del origin
+            <br>
             </div>
         </div>       
     </div>
