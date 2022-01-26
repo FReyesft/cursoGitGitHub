@@ -62,7 +62,15 @@
             Para que el sistema operativo se de cuenta que la  llave existe: eval $(ssh-agent -s).<br>
             Agent (Significa que el servidor de SSH esta corriendo) pid (Es el identificador del proceso) "numero" (le dice al sistema operativo que el proceso esta corriendo")<br>
             Agregar la llave al sistema operativo: me dirijo al home y pongo el siguiente comando; ssh-add ~/.ssh/id_rsa<br>
-            remote set-url origin: Para cambiar la url del origin
+            remote set-url origin: Para cambiar la url del origin<br>
+            Muestra todos los commits y cambios del proyecto mas entendible:  (alias "nombre"=)(nombregit log --all --graph --decorate --oneline<br>
+            historia: me muestra todos los procesos y commits<br>
+            le pongo un tag a un commit(versión): git tag -a v0.1 -m "Resultado de la primera clase del curso" 9984c69<br>
+            git show-ref --tags: me muestra los tags que he generado.<br>
+            git push origin --tags: Se le envia a origin los tags creados<br>
+            borrar un tag: git tag -d "nombre tag" git push origin :refs/tags/"nombre de tag"<br>
+
+
             <br>
             </div>
         </div>       
