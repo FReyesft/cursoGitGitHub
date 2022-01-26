@@ -34,6 +34,25 @@
             git pull origin main --allow-unrelated-histories: Fuerza a Git a unir las dos historias de commits<br>
             git branch -m (nombre antiguo) (nombre nuevo): para cambiar el nombre de la rama.<br>
             git remoteset-url origin (nueva url): Para cambiar la url.<br>
+            <br>
+            Resumen: # Primero: Guardar la URL del repositorio de GitHub<br>
+            # con el nombre de origin<br>
+            git remote add origin URL<br>
+            
+            # Segundo: Verificar que la URL se haya guardado
+            # correctamente:<br>
+            git remote<br>
+            git remote -v<br>
+            
+            # Tercero: Traer la versión del repositorio remoto y<br>
+            # hacer merge para crear un commit con los archivos<br>
+            # de ambas partes. Podemos usar git fetch y git merge<br>
+            # o solo el git pull con el flag --allow-unrelated-histories:<br>
+            git pull origin master --allow-unrelated-histories<br>
+            
+            # Por último, ahora sí podemos hacer git push para guardar<br>
+            # los cambios de nuestro repositorio local en GitHub:<br>
+            git push origin master<br>
 
             </div>
         </div>       
