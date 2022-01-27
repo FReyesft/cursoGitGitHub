@@ -7,15 +7,17 @@ body {
     display: flex;
     display: block;
     text-align: center;
-    padding: 30px;
+    padding: 15px;
 }
 
 .cabecera > h1 {
     font-size: 25px;
+    
 }
 
 #containerCabecera {
     border: 1px #000 solid;
+    background-color: bisque;
 }
 
 .contenidoTema {
@@ -32,4 +34,9 @@ body {
 .imgTemaLlaves {
     width: 50%;
     margin-left: 10%;
+}
+
+.logo {
+    width: 70px;
+    display: inline-block;
 }
