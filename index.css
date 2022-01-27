@@ -7,9 +7,12 @@ body {
     display: flex;
     display: block;
     text-align: center;
-    padding: 15
-    
-    px;
+    padding: 15px;
+}
+
+.logo {
+    width: 70px;
+    display: inline-block;
 }
 
 .cabecera > h1 {
@@ -38,7 +41,3 @@ body {
     margin-left: 10%;
 }
 
-.logo {
-    width: 70px;
-    display: inline-block;
-}
