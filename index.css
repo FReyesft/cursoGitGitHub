@@ -41,3 +41,19 @@ body {
     margin-left: 10%;
 }
 
+<<<<<<< HEAD
+=======
+#containerFooter {
+    background-color: bisque;
+}
+
+.redes {
+    background-color: antiquewhite;
+    color: #222;
+    list-style: none;
+}
+
+.derechos {
+    border: #000 1px solid;
+}
+>>>>>>> footer
