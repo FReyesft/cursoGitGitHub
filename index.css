@@ -33,3 +33,19 @@ body {
     width: 50%;
     margin-left: 10%;
 }
+
+#containerFooter {
+    background-color: bisque;
+}
+
+
+
+.redes {
+    background-color: antiquewhite;
+    color: #222;
+    list-style: none;
+}
+
+.derechos {
+    border: 1px #000 solid;
+}
